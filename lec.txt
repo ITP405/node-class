@@ -1,0 +1,5 @@
+package.json (contain all the node package info)
+
+
+Node server: have to create a server in code
+ - can do that through express library
