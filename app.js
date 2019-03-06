@@ -39,7 +39,7 @@ app.get('/api/genres/:id', function(request, response){
     //response.json(genre);
   });
 });
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
 //
 // return new Promise((resolve, reject) =>{
 //   resolve(genres)
